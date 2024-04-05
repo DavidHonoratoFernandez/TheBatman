@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Mallanna&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
     <link href="./img/icon.png" rel="icon" type="image/png">
     <link href="./css.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <section id="encabezado">
-        <p id="textoen">'The Batman': la misteriosa escena post-créditos de la película de Matt Reeves esconde un nuevo enigma para los fans</p>
+    <section id="encabezado" class="style">
+<!-- Hacemos el encabezado antes de realizar las columnas para que ocupe completamente toda la pantalla. -->
+        <p id="textoen" class="txt">'The Batman': la misteriosa escena post-créditos de la película de Matt Reeves esconde un nuevo enigma para los fans</p>
     </section>
 
-    <section id="texto">
+    <section id="texto" class="style">
+
+<!-- Indicamos la primera columna donde añadimos relleno para que el contenido quede el columna central. -->
         <section id="columna1"></section>
 
-        <section id="medio">
+<!-- Hacemos la columna central donde indicamos todo el contenido de la página a excepción del encabezado. -->
+        <section id="medio" class="style">
             <h1>
-                <b>The Batman</b>
+                <b class="txt">The Batman</b>
             </h1>
             
-            <p>'The Batman', la nueva película de Matt Reeves ofrece una versión nueva y más oscura del icónico superhéroe de DC en la que Robert Pattinson 
+            <p class="txt"><b id="rojoword">'The Batman'</b>, la nueva película de Matt Reeves ofrece una versión nueva y más oscura del icónico superhéroe de DC en la que Robert Pattinson 
                 hace de un aún joven Bruce Wayne que ayuda a Jim Gordon (Jeffrey Wright) a resolver una serie de asesinatos en Ciudad Gótica a través de muchos 
                 acertijos para resolver el plan de Enigma, pero ¿Tiene escena post créditos la película?</p>
 
-            <a href="https://youtu.be/IqRRLA6pZvo?feature=shared">Traíler</a>
+<!-- Indicamos el comando de inserción para el tráiler de la película.-->
+            <iframe width="426" height="240" src="https://www.youtube.com/embed/IqRRLA6pZvo" title="THE BATMAN - Tráiler Oficial" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="img"></iframe>
 
-            <p><b>Una escena post-créditos relativa</b></p>
-            <p>La respuesta es que no hay una escena propiamente dicha después de los créditos, pero sí hay algo, un easter egg. Si tienes curiosidad, 
+            <p class="txt"><b>Una escena post-créditos relativa</b></p>
+            <p class="txt">La respuesta es que no hay una escena propiamente dicha después de los créditos, pero sí hay algo, un easter egg. Si tienes curiosidad, 
                 querrás quedarte hasta el final. A diferencia de Marvel, que casi siempre tiene al menos una escena durante o después de los créditos 
                 de sus películas que dan pistas de lo que está por venir. Aquí el clip adicional al final está lejos de lo que normalmente esperaríamos. 
                 No es una escena rodada que presenta personajes en pantalla. Si tras casi tres horas de película quieres descubrirlo, es cosa tuya, 
                 si quieres saberlo, sigue leyendo.</p>
             
-            <p><b>SPOILERS DE LA ESCENA POST-CRÉDITOS DE THE BATMAN</b></p>
-            <p>Con bajas expectativas el clip posterior a los créditos de 'The Batman' es divertido a su modo, no importa en términos de lo que 
+            <p class="txt"><b>SPOILERS DE LA ESCENA POST-CRÉDITOS DE THE BATMAN</b></p>
+            <p class="txt">Con bajas expectativas el clip posterior a los créditos de 'The Batman' es divertido a su modo, no importa en términos de lo que 
                 significa para una posible secuela, aunque ahora ya sabemos que Matt Reeves confirmó que ha estado en conversaciones para 'The Batman 2', 
                 lo que tenemos es una especie de broma que da al público la oportunidad de interactuar con la historia después de salir del cine. 
                 En primer lugar aparece solamente una línea de conversación que dice: GOOD BYE (Adiós), como si fuera una conversación de chat con 
@@ -43,32 +53,34 @@
             
             <img class="imagen" src="./img/img_1.jpeg" alt="foto1">
 
-            <p>Hasta ese momento, es un guiño sin importancia a la película, dado que ese tipo de conexión misteriosa y creepy con el asesino es 
+            <p class="txt">Hasta ese momento, es un guiño sin importancia a la película, dado que ese tipo de conexión misteriosa y creepy con el asesino es 
                 parte de la trama, pero si prestamos atención a la pantalla, porque el clip es corto y rápido, hay un pequeño flash que nos deja 
                 ver una imagen casi subliminal que nos muestra una web.</p>
             
             <img class="imagen" src="./img/img_2.jpeg" alt="foto2">
 
-            <p><b>Un juego con recompensa</b></p>
-            <p>Lo divertido es que si vamos a la web <a href="https://www.rataalada.com">www.rataalada.com</a> nos encontramos con el chat que se encuentra Batman, 
+            <p class="txt"><b>Un juego con recompensa</b></p>
+            <p class="txt">Lo divertido es que si vamos a la web <a href="https://www.rataalada.com">www.rataalada.com</a> nos encontramos con el chat que se encuentra Batman, 
                 y nos propone unos cuantos acertijos. La web es también una broma interna de la película puesto que la pista de "el rata alada" es uno de los momentos 
                 más divertidos de la película, casi una broma de traductores con la que El pingüino se ríe de Gordon y Batman.</p>
             
             <img class="imagen" src="./img/img_3.jpeg" alt="foto3">
 
-            <p>La web tiene varios acertijos que nos pregunta un misterioso personaje que se supone que es el villano de la película, 
+            <p class="txt">La web tiene varios acertijos que nos pregunta un misterioso personaje que se supone que es el villano de la película, 
                 pero sus preguntas son bastante complejas y resolverlas no es tan fácil como parece, y si fallas te intenta poner nervioso, 
                 hasta que decide darte una nueva oportunidad y plantea nuevas preguntas.</p>
 
+<!-- Hacemos la sección de actores donde indicamos a estos mismos. -->
         <section id="actores">
             <section class="fotos">
-                <div><img src="./img/Robertpattinson.jpg" class="actor" alt="Tom Holland">Robert Pattinson -> Bruce Wayne</div>
+                <div><img src="./img/Robertpattinson.jpg" class="actor" alt="Batman">Robert Pattinson -> Bruce Wayne</div>
             </section>
             <section class="fotos">
-                <div><img src="./img/Zoekravitz.jpg" class="actor">Zoë Kravitz -> Selina Kyle</div>
+                <div><img src="./img/Zoekravitz.jpg" class="actor" alt="Catwoman">Zoë Kravitz -> Selina Kyle</div>
             </section>
         </section>
     </section>
 
+<!-- Para finalizar hacemos la columna ubicada en la derecha donde es lo mismo que en el caso de la izquierda, hacer relleno. -->
     <section id="columna2"></section>
 </body>
